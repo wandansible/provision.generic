@@ -1,0 +1,4 @@
+---
+- name: Apply base provision role
+  ansible.builtin.import_role:
+    name: provision
