@@ -1,0 +1,11 @@
+---
+argument_specs:
+  main:
+    short_description: Provision generic host
+    description: |
+      Provision a machine that already has an operating system installed,
+      contains a provision user with sudo permissions,
+      and has sshd installed and running.
+      If using SSH public key authentication then the provision user's
+      public key must be included in their authorized keys file.
+    options: {}
